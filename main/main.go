@@ -6,5 +6,5 @@ func main() {
 	fmt.Println("Annyeong Yeorobun!!")
 	a := 10
 
-	fmt.Println(a)
+	fmt.Println(b)
 }
