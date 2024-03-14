@@ -1,12 +1,15 @@
 name: golang-govulncheck-action
-
 on:
   push:
     branches:
       - master
       - main
-      - Edit
   pull_request:
+
+permissions:
+  contents: read
+  # Optional: allow read access to pull request. Use with only-new-issues option.
+  # pull-requests: read
 
 jobs:
   govulncheck_job:
