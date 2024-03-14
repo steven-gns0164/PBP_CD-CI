@@ -21,4 +21,4 @@ jobs:
         uses: golang/govulncheck-action@v1
         with:
           go-version-input: 1.21.6
-          go-package: PBP_CD-CI
+          go-package: D:\ITHB\Semester 4\PBP\src\PBP_CD-CI
