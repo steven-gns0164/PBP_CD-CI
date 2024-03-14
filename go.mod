@@ -1,3 +1,3 @@
-module PBP_CD-CI
+module pbp_cdci
 
 go 1.21.6
